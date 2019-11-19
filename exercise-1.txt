@@ -1,0 +1,69 @@
+Pseudocode Challenge
+
+1. Newton Second Law
+Secara matematis hukum II Newton dirumuskan sebagai berikut: SF = m x a
+SF = resultan gaya (Newton)
+m = massa benda (kg)
+a = percepatan benda (m/s2)
+Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk menghitung resultan 
+gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang 
+percepatannya adalah 2 m/s2!
+
+pseudocode:
+SET m VALUE is 600
+SET a VALUE is 2
+SET SF VALUE as CALCULATION RESULT of m x a
+PRINT console.log(`hasil SF adalah ${SF} `)
+
+
+2. Tahun Kabisat
+Apa yang kamu ketahui tentang tanggal 29 Februari? Kamu pasti tahu jika suatu tahun memiliki tanggal 
+29 Februari berarti tahun tersebut merupakan tahun kabisat.Dalam kalender Gregorian, tahun kabisat
+ memiliki beberapa kriteria yaitu antara lain:
+Jika tahun habis di bagi 4 dan tidak habis di bagi 100, atau
+Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!
+
+pseudocode:
+SET tahun
+IF (tahun % by 4 is 0) and (tahun % by 100 is not 0) THEN
+	PRINT console.log(`tahun ${tahun} adalah tahun kabisat`)
+ELSE IF  (tahun % by 4 is 0) and (tahun % by 100 is 0) and (tahun % by 400 is 0) THEN 
+	PRINT console.log(`tahun ${tahun} adalah tahun kabisat`)
+ELSE PRINT console.log(`tahun ${tahun} bukan tahun kabisat`)
+
+
+3. Laundry Day
+Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan 
+dimasukkan ke mesin cuci. Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci menggunakan algoritma & pseudocode perulangan!
+
+pseudocode:
+SET totalBaju is 20
+SET bajuDidalamMesin is 0
+WHILE totalBaju not equal as bajuDidalamMesin
+	COMPUTE bajuDidalamMesin = bajuDidalamMesin + 1 
+	PRINT(console.log(`baju yang sudah dimasukkan ke dalam mesin cuci sebanyak ${bajuDidalamMesin} buah
+ENDWHILE
+
+
+4. Periksa Kuku
+Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. Jika guru menemukan 
+siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, jika tidak guru akan memuji 
+siswa/siswi tersebut.
+Buatlah algoritma & pseudocode untuk permasalahan diatas.
+	
+pseudocode:
+SET jumlahMurid is 40
+SET sudahDiperiksa is 0
+WHILE jumlahMurid not equal as sudahDiperiksa
+	IF kuku panjang THEN 
+		PRINT console.log('berdiri di depan kelas')
+		COMPUTE sudahDiperiksa = sudahDiperiksa + 1
+	ELSE 
+		PRINT console.log('bagus')
+		COMPUTE sudahDiperiksa = sudahDiperiksa + 1
+ENDWHILE
+
+
+
