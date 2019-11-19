@@ -1,5 +1,6 @@
 //String
 //1. Let's Form a Sentence
+console.log("1. Let's Form a Sentence");
 var word = 'JavaScript';
 var second = 'is';
 var third = 'awesome';
@@ -7,9 +8,11 @@ var fourth = 'and';
 var fifth = 'I';
 var sixth = 'love';
 var seventh = 'it!';
-console.log(word+" "+second+third+" "+fourth+" "+sixth+" "+seventh);
+console.log(word+" "+second+" "+third+" "+fourth+" "+fifth+" "+sixth+" "+seventh);
+console.log('');
 
 //2. Index Accessing - 1 by 1
+console.log('2. Index Accessing - 1 by 1');
 var word = 'wow JavaScript is so cool';
 var exampleFirstWord = word[0] + word[1] + word[2];
 var secondWord = word[4]+word[5]+word[6]+word[7]+word[8]+word[9]+word[10]+word[11]+word[12]+word[13];
@@ -21,8 +24,10 @@ console.log('Second Word: ' + secondWord);
 console.log('Third Word: ' + thirdWord);
 console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
+console.log('');
 
 //3. Breaking Sentence (Again) using Substring
+console.log('3. Breaking Sentence (Again) using Substring');
 var word = 'wow JavaScript is so cool';
 var exampleFirstWord = word.substring(0, 3);
 var secondWord = word.substring(4, 14);
@@ -34,7 +39,9 @@ console.log('Second Word: ' + secondWord);
 console.log('Third Word: ' + thirdWord);
 console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
+console.log('');
 
+console.log('4. Breaking Sentence (yet Again) and Count Each Length');
 //4. Breaking Sentence (yet Again) and Count Each Length
 var word = 'wow JavaScript is so cool';
 var exampleFirstWord4 = word.substring(0, 3);
