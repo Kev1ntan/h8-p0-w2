@@ -1,4 +1,5 @@
 //Logic Challenge - X dan O
+console.log('Logic Challenge - X dan O')
 function xo(str) {
 	var a = 0;
 	var b = 0;
@@ -8,12 +9,12 @@ function xo(str) {
 		}
 		else if (str[i]=='o') {
 		b = b +1;
-		}
-		else{}	
+		}	
 	}
 	if (a==b) {return true;}
 	else {return false;}
 }
+
 // TEST CASES
 console.log(xo('xoxoxo')); // true
 console.log(xo('oxooxo')); // false

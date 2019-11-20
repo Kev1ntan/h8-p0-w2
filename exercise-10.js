@@ -1,4 +1,5 @@
 //Logic Challenge - Bandingkan Angka
+console.log('Logic Challenge - Bandingkan Angka')
 function bandingkanAngka(angka1, angka2) {
   if (angka1<angka2) {
   return true;}
@@ -6,6 +7,7 @@ function bandingkanAngka(angka1, angka2) {
   return false;}
   else {  return -1}
   }
+  
 console.log(bandingkanAngka(5, 8)); // true
 console.log(bandingkanAngka(5, 3)); // false
 console.log(bandingkanAngka(4, 4)); // -1

@@ -1,4 +1,5 @@
 //Logic Challenge - Balik Kata
+console.log('Logic Challenge - Balik Kata')
 function balikKata(kata) {
 	var string = kata;
 	var a = '';
@@ -7,6 +8,7 @@ function balikKata(kata) {
 	}
 	return a;
 }
+
 // TEST CASES
 console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
 console.log(balikKata('John Doe')); // eoD nhoJ

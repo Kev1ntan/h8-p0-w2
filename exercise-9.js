@@ -1,11 +1,14 @@
 //Mengenal Penggunaan Function
 //Tugas 1
+console.log('Tugas 1')
 var shoutOut = function () {
-	return "Halo Function!"
+	return '"Halo Function!"'
 }
 console.log(shoutOut());
+console.log('')
 
 //Tugas 2
+console.log('Tugas 2')
 function calculateMultiply (num1,num2) {
 	return num1*num2;
 };
@@ -13,10 +16,12 @@ var num1 = 5;
 var num2 = 6;
 var hasilPerkalian = calculateMultiply(num1,num2);
 console.log(hasilPerkalian);
+console.log('')
 
 //Tugas 3
+console.log('Tugas 3')
 function processSentence (name,age,address,hobby) {
-	return "Nama saya "+name+", umur saya "+age+" tahun, alamat saya di "+address+", dan saya punya hobby yaitu "+hobby+"!"
+return `"Nama saya ${name}, umur saya ${age} tahun, alamat saya di ${address}, dan saya punya hobby yaitu ${hobby}!"`
 };
 var name = "Agus";
 var age = 30;
